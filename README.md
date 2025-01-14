@@ -5,26 +5,20 @@
 <h1 align="center">NoSleep</h1>
 
 <p align="center">
-  一个简单的 macOS 工具，用于防止系统自动休眠
+  A lightweight macOS utility to prevent your system from sleeping
 </p>
 
-## 简介
+## Overview
 
-NoSleep 是一个轻量级的 macOS 状态栏应用，它可以：
-- 防止系统自动休眠
-- 保持显示器常亮
-- 支持 Intel 和 Apple Silicon Mac
-- 简单易用的开关控制
+NoSleep is a simple menu bar application for macOS that:
+- Prevents system sleep
+- Supports both Intel and Apple Silicon Mac
+- Features a simple on/off toggle
 
-## 下载
+## Download
 
-从 [Releases](https://github.com/c-zeong/NoSleep/releases) 页面下载最新版本。
+Download the latest version from the [Releases](https://github.com/c-zeong/NoSleep/releases) page.
 
-## 系统要求
+## Requirements
 
-- macOS 10.13 或更高版本
-- 支持 Intel 和 Apple Silicon Mac
-
-## 开发者
-
-[@c-zeong](https://github.com/c-zeong) 
+- macOS 10.13 or later
