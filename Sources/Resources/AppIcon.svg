@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+    <!-- 渐变定义 -->
+    <defs>
+        <linearGradient id="mainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#4F46E5"/>
+            <stop offset="100%" style="stop-color:#3730A3"/>
+        </linearGradient>
+    </defs>
+
+    <!-- 圆角矩形背景 -->
+    <rect x="52" y="52" 
+          width="920" height="920" 
+          rx="180" ry="180"
+          fill="white"/>
+    
+    <!-- 图标组合 -->
+    <g>
+        <!-- 灯泡主体 -->
+        <path d="M512 262
+                 c-110 0-200 90-200 200
+                 c0 80 40 140 80 180
+                 c40 40 60 60 60 100
+                 v60
+                 h120
+                 v-60
+                 c0-40 20-60 60-100
+                 c40-40 80-100 80-180
+                 c0-110-90-200-200-200z"
+              fill="url(#mainGradient)"/>
+              
+        <!-- 灯泡底部 -->
+        <path d="M452 802
+                 h120
+                 c6 0 10 4 10 10
+                 v30
+                 c0 6-4 10-10 10
+                 h-120
+                 c-6 0-10-4-10-10
+                 v-30
+                 c0-6 4-10 10-10z"
+              fill="url(#mainGradient)"/>
+    </g>
+</svg> 
