@@ -20,5 +20,9 @@
     <true/>
     <key>CFBundleIconFile</key>
     <string>AppIcon</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.utilities</string>
+    <key>LaunchAtLoginBundleIdentifier</key>
+    <string>com.example.NoSleep-LaunchAtLoginHelper</string>
 </dict>
 </plist> 

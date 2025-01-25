@@ -29,6 +29,9 @@ package: build
 	cp Info.plist $(CONTENTS_DIR)/
 	cp Sources/Resources/icon.svg $(RESOURCES_DIR)/
 	cp Sources/Resources/AppIcon.icns $(RESOURCES_DIR)/
+	# 添加签名步骤
+	chmod +x sign-with-cert.sh
+	./sign-with-cert.sh
 
 dmg: package
 	hdiutil create -volname "$(APP_NAME)" -srcfolder $(APP_DIR) -ov -format UDZO $(APP_NAME).dmg 
