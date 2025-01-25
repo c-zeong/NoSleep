@@ -8,12 +8,12 @@
   A lightweight macOS utility to prevent your system from sleeping
 </p>
 
-## Overview
-
-NoSleep is a simple menu bar application for macOS that:
-- Prevents system sleep
-- Supports both Intel and Apple Silicon Mac
-- Features a simple on/off toggle
+## Features
+- Prevent system sleep while allowing display sleep
+- Menu bar control with status indicator
+- Universal binary (Intel & Apple Silicon)
+- Auto launch at login (NEW)
+- Manual display turn off (NEW)
 
 ## Download
 
